@@ -172,33 +172,7 @@ class ProgressiveTaxation{
 			writeIncomeTaxes.write(incomeTaxFormatted,0,incomeTaxFormatted.length());
 			writeIncomeTaxes.newLine();
 			writeIncomeTaxes.flush();
-			//writeIncomeTaxes.newLine();
 		}
 		writeIncomeTaxes.close();
-		/*
-		try
-		{
-		readIncome = new BufferedReader(new FileReader(args[0]));
-		writeIncomeTax = new BufferedWriter(new FileWriter("Income_Taxes.txt"));
-		}
-		catch (ArrayIndexOutOfBoundsException a)
-		{
-			System.out.println();
-			System.out.println("You did not enter a filename when calling the program! Make sure you enter the filename "
-						  	  + "and classpath if it is not located in the same directory as the ProgressiveTaxation.java file");
-			System.exit(1);
-		}
-		catch (FileNotFoundException f)
-		{
-			System.out.println();
-			System.out.println("The file you entered was not found! Make sure the file name is correct and the correct file path is "
-						  	  + "specified if the file is not located in the same directory as the ProgressiveTaxation.java file");
-			System.exit(1);
-		}
-		catch(IOException io)
-		{
-			System.out.println("An error has occurred");
-		}
-		*/
 	}
 } 
