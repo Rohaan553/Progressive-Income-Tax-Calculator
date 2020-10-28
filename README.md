@@ -1,7 +1,7 @@
 # Progressive-Income-Tax-Calculator
 
 ## Overview
-The Progressive Taxation program reads in sample data from a provided text file, extracts the relevant income information, calculates the income tax based on the income and filing status, and adds the income taxes to the "Income_Taxes.txt" text file.
+The Progressive Taxation Calculator program calculates income taxes based on the 2021 tax rates. It reads in sample data from a provided text file, extracts the relevant income information, calculates the income tax based on the income and filing status, and adds the income taxes to the "Income_Taxes.txt" text file.
 ### Legend
 The "Sample_Incomes.txt" file contains test data which contains an uppercased letter(s) as the third item in each row. The letter(s) stand for the following: 
 - S = Single  
