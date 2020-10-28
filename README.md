@@ -13,4 +13,4 @@ In order to run this program,
 1. Clone this repository to the desired location.
 2. Delete the "Income_Taxes.txt" file. The program will create and populate this file when it is executed.
 3. Compile the ProgressiveTaxation.java file in the Shell by typing "javac ProgressiveTaxation.java".
-4. Run the program by typing "java ProgressiveTaxation Sample_Incomes.txt" in the Shell. After execution is completed, a "Income_Taxes.txt" file should exist in the repository directory containing the income taxes for the incomes provided
+4. Run the program by typing "java ProgressiveTaxation Sample_Incomes.txt" in the Shell. After execution is completed, a "Income_Taxes.txt" file should exist in the repository directory containing the income taxes for the incomes provided.
